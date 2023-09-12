@@ -37,14 +37,3 @@ function simulateLadderGame(n, ladder) {
 //   [1, 5, 7],
 //   [2, 5, 7],
 // ];
-
-const n = 12;
-const ladder = [
-  [1, 5, 8, 10],
-  [2, 4, 7],
-  [1, 5, 7, 9, 11],
-  [2, 5, 7, 10],
-  [3, 6, 8, 11],
-];
-const result = simulateLadderGame(n, ladder);
-console.log(result);
